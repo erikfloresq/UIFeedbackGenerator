@@ -1,0 +1,2 @@
+# UIFeedbackGenerator
+Example for UIFeedbackGenerator
