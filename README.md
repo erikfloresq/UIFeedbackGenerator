@@ -12,7 +12,7 @@ self.feedbackGenerator = UINotificationFeedbackGenerator()
 // Preparing the generator can reduce latency when triggering feedback
 self.feedbackGenerator?.prepare()
 
-// Each feedback generator subclass has a unique triggering method
+// Each feedback generator subclass has a unique triggering method (Have three notifications: success, error and warning)
 self.feedbackGenerator?.notificationOccurred(.success)
 
 // If you no longer need a prepared generator, remove all references to the generator object and let the system deallocate it.
