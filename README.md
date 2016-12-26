@@ -17,4 +17,4 @@ self.feedbackGenerator?.notificationOccurred(.success)
 
 // If you no longer need a prepared generator, remove all references to the generator object and let the system deallocate it.
 self.feedbackGenerator = nil
-``
+```
